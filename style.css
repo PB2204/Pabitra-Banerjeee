@@ -1,0 +1,808 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Baloo Tamma', cursive;
+}
+
+#full-screen {
+    background-color: #333333;
+    height: 340px;
+    width: 645px;
+    border-style: solid;
+    border-color: black;
+    border-width: 10px;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+
+#triangle-bottomright {
+    width: 0;
+    height: 0;
+    border-bottom: 305px solid rgba(220, 220, 220, 0.5);
+    border-left: 625px solid transparent;
+}
+
+.sections {
+    vertical-align: auto;
+    display: inline-block;
+}
+
+#body {
+    height: 95%;
+    width: 100%;
+}
+
+#intro {
+    width: 100%;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    margin-left: 10px;
+}
+
+#about-me {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
+    color: white;
+    background: #333333;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+#about-me img {
+    height: 200px;
+    float: left;
+    margin: 15px;
+}
+
+#about-me li {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 2em;
+}
+
+#profile-pic img {
+    border-radius: 70px;
+
+}
+
+#profile-pic {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#projects {
+    height: 100%;
+    width: 100%;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+    display: none;
+    background: #333333;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#project-font {
+    font-family: 'Baloo Tamma', cursive;
+}
+
+#project-table {
+    text-align: center;
+}
+
+#project-table li {
+    padding: 0;
+}
+
+.project-photo img {
+    height: 100px;
+}
+
+#contact {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    display: none;
+    color: white;
+    background: #333333;
+}
+
+#logos {
+    margin: 80px auto;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 1);
+    height: 250px;
+    width: 700px;
+}
+
+.logos img {
+    display: inline-block;
+    height: 150px;
+    margin: 50px auto;
+}
+
+#email {
+    text-align: center
+}
+
+.headers {
+    text-align: center;
+    background-color: #6AC4FB;
+    padding: 5px;
+}
+
+#header {
+    height: 10px;
+}
+
+#toolbar {
+    background-color: #F3FFFF;
+    height: 5%;
+    font-size: 8px;
+}
+
+.nav-links {
+    display: inline-block;
+    margin-left: 30%;
+    float: right;
+    padding: 5px 10px 0 10px;
+
+}
+
+.links {
+    margin: 0 5px;
+}
+
+
+.circle {
+    border-radius: 50%;
+    height: 70%;
+    width: 2%;
+    position: relative;
+    margin: 3px;
+    display: inline-block;
+    text-align: center;
+}
+
+.red-circle {
+    background-color: red;
+}
+
+.yellow-circle {
+    background-color: #FFD700;
+}
+
+.green-circle {
+    background-color: green;
+}
+
+#keyboard {
+    background-color: gray;
+    height: 250px;
+    width: 760px;
+    margin: -30px auto 10px auto;
+    border-radius: 5px;
+    -webkit-transform: perspective(300px) rotateX(25deg);
+}
+
+#keyboard-bottom {
+    background-color: #696969;
+    height: 15px;
+    width: 920px;
+    position: relative;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+#keyboard-tab {
+    background-color: #F5F5F5;
+    height: 10px;
+    width: 80px;
+    margin: 0 auto;
+    border-radius: 0 0 5px 5px;
+}
+
+.empty-row {
+    height: 10px;
+}
+
+#ventilation {
+    height: 10px;
+    width: 600px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+#keyboard-grid {
+    height: 200px;
+    background-color: gray;
+    margin: 0 auto;
+    padding: 10px 30px;
+}
+
+.keys {
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    color: white;
+    position: relative;
+}
+
+.keys p {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    font-size: 10px;
+    margin: 0 auto;
+    padding-top: 4px;
+}
+
+.keyboard-link {
+    border-color: white;
+    -webkit-box-shadow: 0 0 20px white;
+    -moz-box-shadow: 0 0 20px white;
+    box-shadow: 0 0 20px white;
+}
+
+.keyboard-link:hover {
+    background-color: lime;
+}
+
+.keyboard-link:hover a {
+    color: black;
+}
+
+.keyboard-link a {
+    font-size: 11px;
+    padding-top: 1px;
+    color: lime;
+}
+
+.small-text p {
+    padding-top: 0;
+}
+
+
+.row-one {
+    height: 15px;
+    width: 40px;
+    margin: 0 3px;
+}
+
+.row-two {
+    height: 20px;
+    width: 39px;
+    margin: 0 3px;
+}
+
+.small-key {
+    height: 20px;
+    width: 51px;
+    margin: 0 3px;
+}
+
+.row-three {
+    height: 20px;
+    width: 39px;
+    margin: 0 3px;
+}
+
+.medium-key {
+    height: 20px;
+    width: 55px;
+    margin: 0 3px;
+}
+
+.row-four {
+    height: 20px;
+    width: 39px;
+    margin: 0 3px;
+}
+
+.large-key {
+    height: 20px;
+    width: 71px;
+    margin: 0 3px;
+
+}
+
+.row-five {
+    height: 20px;
+    width: 39px;
+    margin: 0 3px;
+}
+
+.extra-large-key {
+    height: 20px;
+    width: 96px;
+    margin: 0 3px;
+}
+
+.row-six {
+    height: 20px;
+    width: 33px;
+    margin: 0 3px;
+}
+
+.space-bar {
+    height: 20px;
+    width: 275px;
+    margin: 0 3px;
+}
+
+.command-key {
+    height: 20px;
+    width: 50px;
+    margin: 0 3px;
+}
+
+.left-right-arrow {
+    height: 10px;
+    width: 40px;
+    margin: 0;
+}
+
+.up-down-arrow {
+    height: 20px;
+    width: 35px;
+    margin: 0;
+}
+
+.touchpad {
+    height: 60px;
+    width: 150px;
+    border-color: black;
+    border-style: solid;
+    background-color: gray;
+    border-radius: 5px;
+    margin: 0 auto;
+
+}
+
+.css-typing p {
+    font-family: "Courier";
+    width: 50em;
+    white-space: nowrap;
+    overflow: hidden;
+    color: lime;
+    font-size: 20px;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type 5s steps(40, end);
+
+}
+
+.css-typing p:nth-child(2) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type2 5s steps(40, end);
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(3) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type3 5s steps(40, end);
+    -webkit-animation-delay: 6s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(4) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type4 5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+/*  */
+
+.css-typing p:nth-child(5) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type5 5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(6) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type6 5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(7) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type7 5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.css-typing p:nth-child(8) {
+    white-space: nowrap;
+    overflow: hidden;
+    opacity: 0;
+    -webkit-animation: type 5s steps(40, end);
+    animation: type8 5s steps(40, end);
+    -webkit-animation-delay: 9s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+@-webkit-keyframes type {
+    from {
+        width: 0;
+    }
+}
+
+#cursor-1 {
+    animation: blink 1s infinite;
+    color: lime;
+    font-family: "Courier";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#project-terminal {
+    display: none;
+}
+
+#contact-terminal {
+    display: none;
+}
+
+@keyframes blink {
+    to {
+        opacity: .0;
+    }
+}
+
+@keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type2 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type3 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type3 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type4 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type4 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type5 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type5 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type6 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type6 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type7 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type7 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes type8 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes type8 {
+    0% {
+        width: 0;
+    }
+
+    from {
+        opacity: 0;
+    }
+
+    1% {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
